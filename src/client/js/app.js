@@ -10,7 +10,6 @@ const pictureAPIKey = "?key=16712578-6fc139f2d2ef87298cc396fff&q="
 
 //Get the date
 
-
 /* Function called by event listener */
 function performAction(e) {
   e.preventDefault();
@@ -54,8 +53,14 @@ function performAction(e) {
 
 
 }
-
-
+/* Function called by event listener */
+function removeTrip() {
+  // get user input values
+  localStorage.clear()
+  document.getElementById('highT').innerHTML = "";
+  document.getElementById('lowT').innerHTML = "";
+  return document.getElementById('lowT').innerHTML
+}
 
 /* Function to GET Web API Data*/
 const getGeoname = async (baseURL, newZip, apiKey) => {
@@ -97,5 +102,5 @@ const getPicture = async (basePictureURL, city, pictureAPIKey) => {
 }
 
 
-
 export { performAction }
+export { removeTrip }

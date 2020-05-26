@@ -17,11 +17,12 @@
 
         <main>
             <section class="content">
-                <form class="" onsubmit="return Client.performAction(event)">
+                <form class="">
                     <strong>My Trip to: </strong><input id="city" type="text" name="input" value="Vancouver" onblur="" placeholder="Name">
                     <strong>Departing: </strong><input id="departDate" type="date" id="start" name="trip-start"
                     value="2018-07-22">
-                    <input type="submit" name="" value="Add Trip" onclick="return Client.performAction(event)" onsubmit="return Client.performAction(event)">
+                    <input id=trigger class="button" type="submit" name="" value="Add Trip" onsubmit="return Client.performAction(event)">
+                    <input class="button" type="submit" name="" value="Remove Trip" onclick="return Client.removeTrip(event)">
                 </form>
             <section>
 
@@ -42,5 +43,12 @@
         <footer>
             <p>This is a footer</p>
         </footer>
+        <script>
+            if('serviceWorker' in navigator){
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js')
+                });
+            }
+        </script>
     </body>
 </html>
