@@ -27,7 +27,7 @@ console.log(__dirname)
 
 
 app.get('/', function (req, res) {
-    res.sendFile(path.resolve('dist/index.html'))
+    res.status(200).sendFile(path.resolve('dist/index.html'))
 })
 
 // designates what port the app will listen to for incoming requests
@@ -56,3 +56,5 @@ app.post('/api', async (req, res) => {
     } catch(error) {
       console.log(error);
     }})
+
+    module.exports = app;
