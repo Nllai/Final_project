@@ -20,5 +20,6 @@
 ## Extend your Project/Ways to Stand Out 
 
 - Allow the user to remove the trip
+![](src/client/img/effectpicture.jepg)
 
-<img src="src/client/img/effectpicture.jepg" width=90%>
+
