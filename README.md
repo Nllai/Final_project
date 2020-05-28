@@ -1,3 +1,5 @@
+# Travel Planner App
+
 ## Connect to 3 APIs:
 
 - Geonames API;
