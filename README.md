@@ -24,7 +24,7 @@ Type in any city around the world and the date you want to visit there, run the 
 
 - Allow the user to remove the trip
 
-## How to start the app
+## Get Up and Running
 
 - Run with `npm run build-dev`in Terminal
 - localhost:8081
