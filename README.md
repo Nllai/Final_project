@@ -1,4 +1,4 @@
-# Connect to 3 APIs:
+## Connect to 3 APIs:
 
 - Geonames API;
 - Weatherbit API;
@@ -20,6 +20,11 @@
 ## Extend your Project/Ways to Stand Out 
 
 - Allow the user to remove the trip
+
+## How to start the app
+
+- Run with `npm run build-dev`in Terminal
+- localhost:8081
 
 ![](src/client/img/effectpicture.jpeg)
 
