@@ -20,3 +20,5 @@
 ## Extend your Project/Ways to Stand Out 
 
 - Allow the user to remove the trip
+
+<img src="src/client/img/effectpicture.jpg" width=90%>
