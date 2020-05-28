@@ -29,6 +29,8 @@ Type in any city around the world and the date you want to visit there, run the 
 - Run with `npm run build-dev`in Terminal
 - localhost:8081
 
+## UI/UX design & Outlook:
+
 ![](src/client/img/effectpicture.jpeg)
 
 
