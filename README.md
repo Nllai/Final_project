@@ -21,4 +21,4 @@
 
 - Allow the user to remove the trip
 
-<img src="src/client/img/effectpicture.jpg" width=90%>
+<img src="src/client/img/effectpicture.jepg" width=90%>
