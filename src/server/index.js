@@ -13,6 +13,8 @@ const textapi = new aylien({
     application_key: `${process.env.API_KEY}`
 });
 
+
+
 const app = express()
 app.use(cors())
 /* Middleware*/
@@ -56,5 +58,10 @@ app.post('/api', async (req, res) => {
     } catch(error) {
       console.log(error);
     }})
+
+
+window.onload = function() {
+  document.getElementById('results').style.display = 'none';
+};
 
     module.exports = app;

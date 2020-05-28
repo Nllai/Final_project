@@ -4,16 +4,32 @@ body {
     min-height: 100vh;
 }
 
-main {
+.firstmain {
+    font-family: 'Rokkitt', serif;
     flex: 2;
-    background-color: pink;
+    background-image: linear-gradient(#F2D8D5, #F2C4D0);
+
+}
+.secondmain {
+    font-family: 'Rokkitt', serif;
+    flex: 2;
+    background-color: #D9A3A7;
 }
 
+.gridbox{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 1vw;
+    margin: 5% 1% 5% 1%;
+}
+img{
+    width: 80%;
+}
 section {
     max-width: 800px;
     margin: 50px auto;
 }
 
 .button:hover {
-    background-color: greenyellow;
+    background-color: #D9A3A7;
 }

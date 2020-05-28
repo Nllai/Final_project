@@ -22,6 +22,7 @@ function performAction(e) {
   var location
   getGeoname(baseURL, city, apiKey)
     .then(function(res) {
+      document.getElementById('results').style.display = 'inline';
       document.getElementById('destination').innerHTML = res.geonames[0].toponymName
       document.getElementById('city').innerHTML = res.geonames[0].toponymName
       return res

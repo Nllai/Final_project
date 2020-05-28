@@ -2,6 +2,8 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@500&family=Satisfy&display=swap" rel="stylesheet">
         <title>Test</title>
 
     </head>
@@ -15,9 +17,9 @@
             
         </header>
 
-        <main>
+        <main class="firstmain">
             <section class="content">
-                <form class="">
+                <form>
                     <strong>My Trip to: </strong><input id="city" type="text" name="input" value="Vancouver" onblur="" placeholder="Name">
                     <strong>Departing: </strong><input id="departDate" type="date" id="start" name="trip-start"
                     value="2018-07-22">
@@ -25,23 +27,24 @@
                     <input class="button" type="submit" name="" value="Remove Trip" onclick="return Client.removeTrip(event)">
                 </form>
             <section>
-
-            <section>
-                <img id="image" src="" alt="Country Picture">
+        </main>
+        <main id="results" class="secondmain">
+            <section class="gridbox">
+                <img id="image" src="" alt="Destination Picture">
                 <div><strong></strong>
-                    <span id="destination"></span> is
-                    <span id="daysRemaining"></span> days away.
-                </div>
-                <div><strong>Typical weather for then is: </strong>
-                    <span>High - <span id="highT"></span> Low -
-                    <span id="lowT"></span></span>
+                    <span id="destination"></span> trip is
+                    <span id="daysRemaining"></span> day(s) away.
+                <br><br><strong>Typical weather for then is: </strong>
+                    <span>Highest tempreture is <span id="highT"></span> °C, </span>
+                    <span>Lowest tempreture is <span id="lowT"></span>°C</span>
                 </div>
 
             </section>
         </main>
+     
 
         <footer>
-            <p>This is a footer</p>
+            <p>2020 Lanning Zhang</p>
         </footer>
         <script>
             if('serviceWorker' in navigator){
@@ -49,6 +52,9 @@
                     navigator.serviceWorker.register('/service-worker.js')
                 });
             }
+            window.onload = function() {
+                document.getElementById('results').style.display = 'none';
+            };
         </script>
     </body>
 </html>
