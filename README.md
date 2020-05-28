@@ -20,6 +20,7 @@
 ## Extend your Project/Ways to Stand Out 
 
 - Allow the user to remove the trip
-![](src/client/img/effectpicture.jepg)
+
+![](src/client/img/effectpicture.jpeg)
 
 
