@@ -6,9 +6,9 @@ Type in any city around the world and the date you want to visit there, run the 
 ## What is covered:
 
 - Connect to 3 APIs:
-      - Geonames API;
-      - Weatherbit API;
-      - Pixabay API
+       Geonames API;
+       Weatherbit API;
+       Pixabay API
 
 - Webpack entry point
 - Webpack output and dist folder
